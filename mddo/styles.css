@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     color: aliceblue;
-    background-color: hsl(56, 100%, 97%);
+    background-color: #f8e9e9;
     display: flex;
     justify-content: center;
     align-items: center;
