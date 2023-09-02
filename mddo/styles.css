@@ -26,23 +26,23 @@ body {
 
 /* Different colors for different topics */
 .data {
-    background-color: #cba415;
+    background-color: #F1948A;
 }
 
 .opleiding {
-    background-color: #345995;
+    background-color: #85C1E9;
 }
 
 .duurzaamheid {
-    background-color: #e40066;
+    background-color: #F7DC6F;
 }
 
 .supply {
-    background-color: #03cea4;
+    background-color: #58D68D;
 }
 
 .organisatie {
-    background-color: #fb4d3d;
+    background-color: #BB8FCE;
 }
 
 .tooltip {
