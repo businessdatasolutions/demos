@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    color: black;
-    background-color: #f8e9e9;
+    background-color: hsl(56, 100%, 97%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +12,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    width: 90%;
+    max-width: 1200px; /* or whatever maximum width you prefer */
 }
 
 .bubble {
@@ -47,7 +48,7 @@ body {
 
 .tooltip {
     visibility: hidden;
-    background-color: #f8e9e9;
+    background-color: white;
     color: #333;
     text-align: left;
     border-radius: 5px;
@@ -77,5 +78,20 @@ body {
     visibility: visible;
     opacity: 1;
 }
+
+/* Adjust bubble size on smaller screens */
+@media (max-width: 768px) {
+    .bubble {
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bubble {
+        padding: 15px 25px;
+        font-size: 0.9em;
+    }
+}
+
 
 
