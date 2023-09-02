@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    color: aliceblue;
     background-color: hsl(56, 100%, 97%);
     display: flex;
     justify-content: center;
@@ -25,28 +26,28 @@ body {
 
 /* Different colors for different topics */
 .data {
-    background-color: #F1948A;
+    background-color: #cba415;
 }
 
 .opleiding {
-    background-color: #85C1E9;
+    background-color: #345995;
 }
 
 .duurzaamheid {
-    background-color: #F7DC6F;
+    background-color: #e40066;
 }
 
 .supply {
-    background-color: #58D68D;
+    background-color: #03cea4;
 }
 
 .organisatie {
-    background-color: #BB8FCE;
+    background-color: #fb4d3d;
 }
 
 .tooltip {
     visibility: hidden;
-    background-color: white;
+    background-color: #f8e9e9;
     color: #333;
     text-align: left;
     border-radius: 5px;
